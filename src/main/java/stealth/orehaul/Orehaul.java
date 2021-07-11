@@ -19,7 +19,7 @@ public class Orehaul {
     public Orehaul() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
+        ModItems.ITEMS.register(eventBus);
         eventBus.addListener(this::setup);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
