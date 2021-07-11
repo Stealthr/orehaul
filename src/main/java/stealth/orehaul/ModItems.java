@@ -16,6 +16,4 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
-    public static void register(IEventBus eventBus) {
-    }
 }
